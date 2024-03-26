@@ -5,7 +5,7 @@ Author URL: http://webthemez.com
 $( function() {
 // Add background image
 	//$.backstretch('images/road2.jpg');
-	var endDate = "December 31, 2017 15:03:25";
+	var endDate = "December 31, 2024 15:03:25";
 	$('.countdown.simple').countdown({ date: endDate });
 	$('.countdown.styled').countdown({
 	  date: endDate,

@@ -46,14 +46,14 @@ p, pre {
 }
 .large-header {
 	position: relative;
-	width: 100%;
+	width: 60%;
 	background: #333;
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
 	z-index: 0;
 	position: absolute;
-	height: 100% !important;
+	height: 60% !important;
 	bottom: 0px;
 }
 

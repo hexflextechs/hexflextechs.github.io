@@ -1,0 +1,31 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/formstyle.css">
+</head>
+<body>
+    <form id="fs-frm" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/moqgpbqg" method="post">
+        <fieldset id="fs-frm-inputs">
+          <div id="enter_name">
+            <label for="name" style="display: block;">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First Last" required="">
+          </div>
+          
+          <div id="enter_email">
+            <label for="email-address" style="display: block;">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@tundra-sports" required="">
+          </div>
+          
+          <div id="enter_phone" class="enter_phone">
+            <label for="phone" style="display: block;">Phone Number</label>
+            <input type="phone" name="phone" id="phone" placeholder="(Optional)">
+          </div>
+    
+          <div id="enter_msg" class="enter_msg">
+            <label for="message" style="display: block;">Message</label>
+            <textarea rows="9" name="message" id="message" placeholder="Leave us a message" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </div>
+    
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+</body>

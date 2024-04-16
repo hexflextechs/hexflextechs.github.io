@@ -1,0 +1,28 @@
+body{
+    background-image: url('../img/stocktest.jpg');
+    color: #FFF;
+    height: 100%;
+    width: 98%;
+    background-size: cover;
+    outline: 1px solid red;
+}
+form{
+    height: 100%;
+}
+label{
+    font-size: 40px;
+}
+input{
+    width: 100%;
+    font-size: 40px;
+}
+.enter_phone{
+    outline: 1px solid red;
+}
+.enter_msg{
+    outline: 1px solid red;
+}
+textarea{
+    width: 100%;
+    font-size: 40px;
+}
